@@ -22,3 +22,21 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+
+/* Responsive Media Query */
+@media screen and (max-width: 700px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .box-collage{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* Medium device */
+@media screen and (max-width: 900px){
+    .row{
+        flex-direction: column;
+        height: auto;
+}

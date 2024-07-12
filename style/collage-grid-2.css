@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 400px;
+    width: 100%;
+}
+.row1>img {
+    width: 100%;
+}
+
+.row2, .row3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.row2 div img{
+    height: 200px;
+}
+.row3 div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.row3 div img {
+    height: 100%;
+}
