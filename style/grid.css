@@ -1,11 +1,12 @@
-.container{
+.container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,200px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
     gap: 20px;
-    
+
 }
-.box{
+
+.box {
     background-color: gray;
     border-radius: 8px;
     flex-direction: row;
@@ -13,12 +14,19 @@
     justify-content: center;
     align-items: center;
 }
-#box-1{
+
+#box-1 {
     grid-row: span 5;
 }
-#box-11 , #box-12{
+
+#box-11,
+#box-12 {
     grid-column: span 3;
 }
-#box-6, #box-7, #box-9, #box-10{
+
+#box-6,
+#box-7,
+#box-9,
+#box-10 {
     background-color: tomato;
 }
